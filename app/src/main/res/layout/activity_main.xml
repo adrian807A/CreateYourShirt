@@ -27,7 +27,7 @@
             android:id="@+id/IdBtn_12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="MAN" />
+            android:text="MAN!!" />
 
     </LinearLayout>
 
