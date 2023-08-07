@@ -4,21 +4,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#420404"
-    android:backgroundTint="#6E3030"
-    android:foregroundTint="#881F1F"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/IdTxtv_1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F3EC77"
-        android:text="Create Your Shirt"
-        android:textAlignment="center"
-        android:textColor="#ECE19E"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:text="Create Your Shirt" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,22 +19,21 @@
 
         <Button
             android:id="@+id/IdBtn_1"
-            android:layout_width="190dp"
-            android:layout_height="53dp"
-            android:backgroundTint="#E46E37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="WOMAN" />
 
         <Button
             android:id="@+id/IdBtn_12"
-            android:layout_width="190dp"
-            android:layout_height="53dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="MAN" />
 
     </LinearLayout>
 
     <TextView
         android:id="@+id/IdTxtv_2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CHOOSE THE COLOR" />
 
@@ -53,91 +44,82 @@
 
         <Button
             android:id="@+id/IdBtn_2"
-            android:layout_width="74dp"
-            android:layout_height="67dp"
-            android:backgroundTint="#F6FDFD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="WT" />
 
         <Button
             android:id="@+id/IdBtn_3"
-            android:layout_width="74dp"
-            android:layout_height="67dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="BLK" />
 
         <Button
             android:id="@+id/IdBtn_4"
-            android:layout_width="74dp"
-            android:layout_height="67dp"
-            android:backgroundTint="#C62828"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="RD" />
 
         <Button
             android:id="@+id/IdBtn_5"
-            android:layout_width="74dp"
-            android:layout_height="67dp"
-            android:backgroundTint="#1B2CA6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
             android:text="BL" />
 
         <Button
             android:id="@+id/IdBtn_6"
-            android:layout_width="74dp"
-            android:layout_height="67dp"
-            android:backgroundTint="#7E8387"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="GY" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/IdTxtv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIZE" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/IdTxtv_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SIZE" />
-
         <Button
             android:id="@+id/IdBtn_7"
-            android:layout_width="74dp"
-            android:layout_height="67dp"
-            android:backgroundTint="#00838F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="S" />
 
         <Button
             android:id="@+id/IdBtn_8"
-            android:layout_width="74dp"
-            android:layout_height="67dp"
-            android:backgroundTint="#00838F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="M" />
 
         <Button
             android:id="@+id/IdBtn_9"
-            android:layout_width="74dp"
-            android:layout_height="67dp"
-            android:backgroundTint="#00838F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="L" />
 
         <Button
             android:id="@+id/IdBtn_10"
-            android:layout_width="74dp"
-            android:layout_height="67dp"
-            android:backgroundTint="#00838F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="XL" />
 
         <Button
             android:id="@+id/IdBtn_11"
-            android:layout_width="74dp"
-            android:layout_height="67dp"
-            android:backgroundTint="#00838F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="XXL" />
 
         <Button
             android:id="@+id/IdBtn_15"
-            android:layout_width="110dp"
-            android:layout_height="70dp"
-            android:backgroundTint="#EEF493"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:onClick="irPhotoActivity2"
             android:text="Take PHOTO" />
 
@@ -145,7 +127,7 @@
 
     <TextView
         android:id="@+id/IdTxtv_4"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CHOOSE FROM MODE" />
 
@@ -156,25 +138,21 @@
 
         <Button
             android:id="@+id/IdBtn_14"
-            android:layout_width="110dp"
-            android:layout_height="70dp"
-            android:backgroundTint="#FF8F00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Make DRAW" />
 
         <Button
             android:id="@+id/IdBtn_16"
-            android:layout_width="110dp"
-            android:layout_height="70dp"
-            android:backgroundTint="#3F7013"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="IA IMAGE" />
 
         <TextView
             android:id="@+id/etEleccion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Elegiste"
-            android:inputType="text" />
+            android:hint="Elegiste" />
 
     </LinearLayout>
 

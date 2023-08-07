@@ -3,12 +3,13 @@ package com.example.createyourshirt;
 import android.app.Activity;
 import android.os.Bundle;
 
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 	//EditText etEleccion;
 	TextView IdTxtv_1, IdTxtv_2, IdTxtv_3, etEleccion;
 	Button IdBtn_1, IdBtn_12, IdBtn_2, IdBtn_3, IdBtn_4, IdBtn_5, IdBtn_6, IdBtn_7, IdBtn_8, IdBtn_9, IdBtn_10, IdBtn_11, IdBtn_14, IdBtn_15, IdBtn_16;
@@ -16,6 +17,7 @@ public class MainActivity extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
