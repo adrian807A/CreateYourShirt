@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View view) {
 				//Toast.makeText(getBaseContext(),"Se a presionado el boton 2", Toast.LENGTH_SHORT).show();
-				IdTxtv_1.setText("Man");
+				IdTxtv_1.setText("Rosito");
 			}
 		});
 		
