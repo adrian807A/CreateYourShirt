@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Texto_Botones</string>
+
+    <string name="IdBtn_1">WOMAN</string>
+    <string name="IdBtn_012">MAN</string>
+    <string name="IdBtn_01">WOMAN</string>
+    <string name="IdBtn_15">Take PHOTO</string>
+    <string name="IdBtn_14">Make DRAW</string>
+    <string name="btn">anterior</string>
+    <string name="btnCamara">TakePHOTO</string>
+
+</resources>

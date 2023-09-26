@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#420404"
+    android:backgroundTint="#6E3030"
+    android:foregroundTint="#881F1F"
+    tools:context=".White">
+
+    <TextView
+        android:id="@+id/IdTxtv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="111dp"
+        android:layout_weight="1"
+        android:backgroundTint="#F3EC77"
+        android:text="Create Your Shirt"
+        android:textAlignment="center"
+        android:textColor="#ECE19E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/IdBtn_01"
+        android:layout_width="190dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#E46E37"
+
+        android:text="@string/IdBtn_1"
+        android:textAlignment="center"
+        android:textColorLink="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/IdBtn_012"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdTxtv_1" />
+
+    <Button
+        android:id="@+id/IdBtn_012"
+        android:layout_width="190dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#0826D3"
+        android:onClick="Man"
+        android:text="MAN"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/IdBtn_01"
+        app:layout_constraintTop_toBottomOf="@+id/IdTxtv_1" />
+
+    <TextView
+        android:id="@+id/IdTxtv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:text="CHOOSE THE COLOR"
+        android:textAlignment="center"
+        android:textColor="#A8E41B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdBtn_01" />
+
+    <Button
+        android:id="@+id/IdBtn_2"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#F6FDFD"
+        android:text="WT"
+        android:textAlignment="center"
+        android:textColor="#393434"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/IdBtn_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdBtn_01" />
+
+    <Button
+        android:id="@+id/IdBtn_3"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#131212"
+        android:onClick="Black"
+        android:text="BLK"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/IdBtn_4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/IdBtn_2"
+        app:layout_constraintTop_toBottomOf="@+id/IdTxtv_2" />
+
+    <Button
+        android:id="@+id/IdBtn_4"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="6dp"
+        android:backgroundTint="#C62828"
+        android:onClick="Red"
+        android:text="RD"
+        android:textColor="#F4EBEB"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/IdBtn_5"
+        app:layout_constraintStart_toEndOf="@+id/IdBtn_3"
+        app:layout_constraintTop_toBottomOf="@+id/IdTxtv_2" />
+
+    <Button
+        android:id="@+id/IdBtn_5"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1B2CA6"
+        android:onClick="Blue"
+        android:text="BL"
+        android:textColor="#EAEFEF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/IdBtn_6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/IdBtn_4"
+        app:layout_constraintTop_toBottomOf="@+id/IdTxtv_2" />
+
+    <Button
+        android:id="@+id/IdBtn_6"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#7E8387"
+        android:onClick="Grey"
+        android:text="GY"
+        android:textColor="#F6F9FA"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/IdBtn_5"
+        app:layout_constraintTop_toBottomOf="@+id/IdBtn_012" />
+
+    <TextView
+        android:id="@+id/IdTxtv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="167dp"
+        android:text="SIZE"
+        android:textColor="#A6A1A1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdBtn_4" />
+
+    <Button
+        android:id="@+id/IdBtn_7"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#00838F"
+        android:onClick="Whitesw"
+        android:text="S"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/IdBtn_8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdBtn_2" />
+
+    <Button
+        android:id="@+id/IdBtn_8"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#00838F"
+        android:text="M"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:iconTint="#00838F"
+        app:layout_constraintEnd_toStartOf="@+id/IdBtn_9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/IdBtn_7"
+        app:layout_constraintTop_toBottomOf="@+id/IdBtn_3" />
+
+    <Button
+        android:id="@+id/IdBtn_9"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00838F"
+        android:text="L"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/IdBtn_10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/IdBtn_8"
+        app:layout_constraintTop_toBottomOf="@+id/IdTxtv_3" />
+
+    <Button
+        android:id="@+id/IdBtn_10"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#00838F"
+        android:text="XL"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/IdBtn_11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/IdBtn_9"
+        app:layout_constraintTop_toBottomOf="@+id/IdBtn_5" />
+
+    <Button
+        android:id="@+id/IdBtn_11"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#00838F"
+        android:text="XXL"
+        android:textColor="#CACDCD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/IdBtn_10"
+        app:layout_constraintTop_toBottomOf="@+id/IdBtn_6" />
+
+    <Button
+        android:id="@+id/IdBtn_15"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#EEF493"
+
+        android:text="@string/IdBtn_15"
+        android:textColor="#885F20"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/IdBtn_16"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/IdBtn_14"
+        app:layout_constraintTop_toBottomOf="@+id/IdTxtv_4" />
+
+    <TextView
+        android:id="@+id/IdTxtv_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="CHOOSE FROM MODE"
+        android:textColor="#30B3BF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdBtn_8" />
+
+    <Button
+        android:id="@+id/IdBtn_14"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF8F00"
+        android:text="@string/IdBtn_14"
+        android:textColor="#2E6C32"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/IdBtn_15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdTxtv_4" />
+
+    <Button
+        android:id="@+id/IdBtn_16"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#3F7013"
+        android:text="IA IMAGE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/IdBtn_15"
+        app:layout_constraintTop_toBottomOf="@+id/IdTxtv_4" />
+
+    <ImageView
+        android:id="@+id/whiw"
+        android:layout_width="192dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="512dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/whitwho" />
+
+    <TextView
+        android:id="@+id/textSizW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="512dp"
+        android:text="Choose Size Now!"
+        android:textColor="#EA80FC"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
