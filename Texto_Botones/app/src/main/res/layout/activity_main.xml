@@ -7,6 +7,7 @@
     android:background="#420404"
     android:backgroundTint="#6E3030"
     android:foregroundTint="#881F1F"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
@@ -33,8 +34,8 @@
         android:layout_height="53dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#E46E37"
-        android:onClick="Woman"
-        android:text="@string/IdBtn_1"
+
+        android:text="@string/IdBtn_01"
         android:textAlignment="center"
         android:textColorLink="#FF5722"
         android:textSize="20sp"
@@ -80,6 +81,7 @@
         android:layout_height="67dp"
         android:layout_marginTop="64dp"
         android:backgroundTint="#F6FDFD"
+        android:onClick="White"
         android:text="WT"
         android:textAlignment="center"
         android:textColor="#393434"
@@ -113,6 +115,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="6dp"
         android:backgroundTint="#C62828"
+        android:onClick="Red"
         android:text="RD"
         android:textColor="#F4EBEB"
         android:textSize="20sp"
@@ -127,6 +130,7 @@
         android:layout_height="67dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#1B2CA6"
+        android:onClick="Blue"
         android:text="BL"
         android:textColor="#EAEFEF"
         android:textSize="20sp"
@@ -142,6 +146,7 @@
         android:layout_height="67dp"
         android:layout_marginTop="64dp"
         android:backgroundTint="#7E8387"
+        android:onClick="Grey"
         android:text="GY"
         android:textColor="#F6F9FA"
         android:textSize="20sp"
@@ -172,6 +177,7 @@
         android:layout_height="67dp"
         android:layout_marginTop="68dp"
         android:backgroundTint="#00838F"
+        android:onClick="Blacksw"
         android:text="S"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -186,6 +192,7 @@
         android:layout_height="67dp"
         android:layout_marginTop="68dp"
         android:backgroundTint="#00838F"
+        android:onClick="BlackMw"
         android:text="M"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -201,6 +208,7 @@
         android:layout_height="67dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#00838F"
+        android:onClick="BlackLw"
         android:text="L"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -215,6 +223,7 @@
         android:layout_height="67dp"
         android:layout_marginTop="68dp"
         android:backgroundTint="#00838F"
+        android:onClick="BlackXLw"
         android:text="XL"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -229,6 +238,7 @@
         android:layout_height="67dp"
         android:layout_marginTop="68dp"
         android:backgroundTint="#00838F"
+        android:onClick="BlackXXLw"
         android:text="XXL"
         android:textColor="#CACDCD"
         android:textSize="20sp"
@@ -244,6 +254,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="8dp"
         android:backgroundTint="#EEF493"
+
         android:text="@string/IdBtn_15"
         android:textColor="#885F20"
         android:textSize="16sp"
@@ -295,5 +306,41 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/IdBtn_15"
         app:layout_constraintTop_toBottomOf="@+id/IdTxtv_4" />
+
+    <TextView
+        android:id="@+id/textSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="512dp"
+        android:textColor="#BEAEC1"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="192dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="512dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textDissp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="539dp"
+        android:text="TextView"
+        android:textColor="#E4F6F3"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
