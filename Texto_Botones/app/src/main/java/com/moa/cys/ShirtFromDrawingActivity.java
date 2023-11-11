@@ -1,4 +1,4 @@
-package moa.dev.texto_botones;
+package com.moa.texto_botones;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -30,7 +30,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.util.Calendar;
 
-public class PaintModu extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+
+public class ShirtFromDrawingActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private ImageView imageView1,imageView2, button2;
     ImageView imageView, imgView3;
     Button button, btnRed, btnOran, btnYello, btnGreen, btnPink, btnBor, btnImgPaint, btnBrowse;
@@ -49,7 +50,7 @@ public class PaintModu extends AppCompatActivity implements AdapterView.OnItemSe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_paint_modu);
+        setContentView(R.layout.shirt_from_drawing_activity);
         button = findViewById(R.id.button);
         button2 = findViewById(R.id.button2);
         btnRed = findViewById(R.id.btnRed);
@@ -100,7 +101,7 @@ public class PaintModu extends AppCompatActivity implements AdapterView.OnItemSe
 
 
 
-                Intent intent = new Intent(getApplicationContext(), paintShirt.class);
+                Intent intent = new Intent(getApplicationContext(), OrderActivity.class);
                 Bundle bundle = new Bundle();
                 bundle.putByteArray("photo",bytearray);
                 intent.putExtra("bundle",bundle);

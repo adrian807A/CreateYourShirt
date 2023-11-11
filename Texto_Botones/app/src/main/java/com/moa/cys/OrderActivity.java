@@ -1,4 +1,4 @@
-package moa.dev.texto_botones;
+package com.moa.texto_botones;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class paintShirt extends AppCompatActivity {
+public class OrderActivity extends AppCompatActivity {
     Button btnOrder, btnph;
     ImageView imageView1, imageView;
     //ImageView imageView1;
@@ -21,7 +21,7 @@ public class paintShirt extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_paint_shirt);
+        setContentView(R.layout.order_activity);
         //imgView = findViewById(R.id.imgView1);
         imageView1 = findViewById(R.id.imageView1);
         imageView = findViewById(R.id.imgView1);

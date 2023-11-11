@@ -1,16 +1,14 @@
-package moa.dev.texto_botones;
+package com.moa.texto_botones;
 
-import static moa.dev.texto_botones.R.*;
+import static com.moa.texto_botones.R.*;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -26,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(layout.activity_main);
+        setContentView(layout.main_activity);
 
         IdTxtv_1 = (TextView) findViewById(id.IdTxtv_1);
         IdTxtv_2 = (TextView) findViewById(id.IdTxtv_2);
@@ -90,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                                 IdBtn_15.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View v) {
-                                        Intent intent = new Intent(getApplicationContext(), photoShirt.class);
+                                        Intent intent = new Intent(getApplicationContext(), ShirtFromGalleryActivity.class);
                                         intent.putExtra("my_image", drawable.whitwho);
                                         Intent intent1 = intent.putExtra("dato", "S");
                                         Intent intent2 = intent.putExtra("data", "White color. size:S. Woman shirt");
@@ -100,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
                                 IdBtn_14.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View v) {
-                                        Intent intent = new Intent(getApplicationContext(), PaintModu.class);
+                                        Intent intent = new Intent(getApplicationContext(), ShirtFromDrawingActivity.class);
 
                                         intent.putExtra("my_image", drawable.whitwho);
                                         Intent intent1 = intent.putExtra("dato", "S");
@@ -151,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
                                 IdBtn_15.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View v) {
-                                        Intent intent = new Intent(getApplicationContext(), photoShirt.class);
+                                        Intent intent = new Intent(getApplicationContext(), ShirtFromGalleryActivity.class);
                                         intent.putExtra("my_image", drawable.blawho);
                                         Intent intent1 = intent.putExtra("dato", "S");
                                         startActivity(intent);
@@ -221,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
                                 IdBtn_15.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View v) {
-                                        Intent intent = new Intent(getApplicationContext(), photoShirt.class);
+                                        Intent intent = new Intent(getApplicationContext(), ShirtFromGalleryActivity.class);
                                         intent.putExtra("my_image", drawable.whitman);
                                         Intent intent1 = intent.putExtra("dato", "S");
                                         startActivity(intent);
@@ -270,7 +268,7 @@ public class MainActivity extends AppCompatActivity {
                                 IdBtn_15.setOnClickListener(new View.OnClickListener() {
                                     @Override
                                     public void onClick(View v) {
-                                        Intent intent = new Intent(getApplicationContext(), photoShirt.class);
+                                        Intent intent = new Intent(getApplicationContext(), ShirtFromGalleryActivity.class);
                                         intent.putExtra("my_image", drawable.blacman);
                                         Intent intent1 = intent.putExtra("dato", "S");
                                         startActivity(intent);

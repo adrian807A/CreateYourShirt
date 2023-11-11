@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#E4DECF"
     android:backgroundTint="#EFE8D8"
-    tools:context=".PaintModu"
+    tools:context=".ShirtFromDrawingActivity"
     tools:layout_editor_absoluteX="98dp"
     tools:layout_editor_absoluteY="-48dp">
 

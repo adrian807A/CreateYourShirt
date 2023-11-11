@@ -1,4 +1,4 @@
-package moa.dev.texto_botones;
+package com.moa.texto_botones;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import com.github.dhaval2404.imagepicker.ImagePicker;
 
-public class photoShirt extends AppCompatActivity {
+public class ShirtFromGalleryActivity extends AppCompatActivity {
     Button btnCamara, btnOrder, btnph;
     ImageView imgView;
     ImageView imageView1;
@@ -22,7 +22,7 @@ public class photoShirt extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_photo_shirt);
+        setContentView(R.layout.shirt_from_gallery_activity);
         btnCamara = findViewById(R.id.btnCamara);
         btnOrder = findViewById(R.id.btnOrder);
         btnph = findViewById(R.id.btnph);
@@ -51,7 +51,7 @@ public class photoShirt extends AppCompatActivity {
         btnCamara.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ImagePicker.with(photoShirt.this)
+                ImagePicker.with(ShirtFromGalleryActivity.this)
                         .crop()	    			//Crop image(Optional), Check Customization for more option
                         .compress(1024)			//Final image size will be less than 1 MB(Optional)
                         .maxResultSize(1080, 1080)	//Final image resolution will be less than 1080 x 1080(Optional)
@@ -65,6 +65,7 @@ public class photoShirt extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         Uri uri=data.getData();
         imgView.setImageURI(uri);
+        
     }
     //Metodo para el botón anterior
     public void Anterior(View view){

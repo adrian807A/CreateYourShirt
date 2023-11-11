@@ -6,20 +6,7 @@
     android:layout_height="match_parent"
     android:background="#420404"
     android:backgroundTint="#6E3030"
-    android:orientation="vertical"
-    tools:context=".photoShirt">
-
-    <Button
-        android:id="@+id/btnCamara"
-        android:layout_width="138dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginBottom="124dp"
-        android:backgroundTint="#EEF493"
-        android:text="@string/btnCamara"
-        android:textColor="#2F3C3A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    android:orientation="vertical">
 
 
     <ImageView
@@ -32,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imgView"
+        android:id="@+id/imgView1"
         android:layout_width="142dp"
         android:layout_height="271dp"
         android:layout_marginStart="140dp"
