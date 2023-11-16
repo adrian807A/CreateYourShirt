@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'moa.dev.texto_botones'
+    namespace 'com.moa.cys'
     compileSdk 33
 
     defaultConfig {
-        applicationId "moa.dev.texto_botones"
+        applicationId "com.moa.cys"
         minSdk 26
         targetSdk 33
         versionCode 1

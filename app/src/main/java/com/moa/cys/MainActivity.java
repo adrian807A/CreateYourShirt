@@ -1,6 +1,6 @@
-package com.moa.texto_botones;
+package com.moa.cys;
 
-import static com.moa.texto_botones.R.*;
+import static com.moa.cys.R.*;
 
 import androidx.appcompat.app.AppCompatActivity;
 

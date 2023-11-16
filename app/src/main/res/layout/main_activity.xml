@@ -35,7 +35,7 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#E46E37"
 
-        android:text="@string/IdBtn_01"
+        android:text="WOMAN"
         android:textAlignment="center"
         android:textColorLink="#FF5722"
         android:textSize="20sp"
